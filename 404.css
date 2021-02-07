@@ -33,7 +33,7 @@ transform: translate(-50%,-50%);
 -webkit-transform: translate(-50%,-50%);
 z-index: 23;
 width: 530px;
-height: 200px;
+height: 150px;
 border-radius: 20px;
 }
 
@@ -47,13 +47,4 @@ z-index: -1;
 
 .landscape{
 z-index: 0;
-}
-
-#app > *{
-top: 50%;
-transform: translateY(-50%);
--o-transform: translateY(-50%);
--ms-transform: translateY(-50%);
--moz-transform: translateY(-50%);
--webkit-transform: translateY(-50%);
 }
