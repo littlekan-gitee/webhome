@@ -32,8 +32,9 @@ transform: translate(-50%,-50%);
 -moz-transform: translate(-50%,-50%);
 -webkit-transform: translate(-50%,-50%);
 z-index: 23;
-width: 675px;
-height: 375px;
+width: 650px;
+height: 350px;
+border-radius: 20px;
 }
 
 #app:hover{
@@ -46,4 +47,15 @@ z-index: -1;
 
 .landscape{
 z-index: 0;
+}
+
+#app *{
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+-o-transform: translate(-50%,-50%);
+-ms-transform: translate(-50%,-50%);
+-moz-transform: translate(-50%,-50%);
+-webkit-transform: translate(-50%,-50%);
 }
