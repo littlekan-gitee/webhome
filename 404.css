@@ -38,6 +38,10 @@ z-index: 23;
 cursor:default;
 }
 
-#canvas, .landscape, .filter{
+#canvas, .filter{
 z-index: -1;
+}
+
+.landscape{
+z-index: 0;
 }
