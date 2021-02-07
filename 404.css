@@ -32,8 +32,8 @@ transform: translate(-50%,-50%);
 -moz-transform: translate(-50%,-50%);
 -webkit-transform: translate(-50%,-50%);
 z-index: 23;
-width: 750px;
-height: 500px;
+width: 675px;
+height: 375px;
 }
 
 #app:hover{
