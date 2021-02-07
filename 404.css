@@ -39,5 +39,5 @@ cursor:default;
 }
 
 #canvas, .landscape, .filter{
-z-index: 16;
+z-index: -1;
 }
